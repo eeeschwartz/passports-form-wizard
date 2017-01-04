@@ -1,6 +1,6 @@
 {
   "name": "hmpo-form-wizard",
-  "version": "5.2.0",
+  "version": "6.0.0",
   "description": "routing and request handling for a multi-step form processes",
   "main": "index.js",
   "scripts": {
@@ -24,22 +24,23 @@
   "homepage": "https://github.com/UKHomeOffice/passports-form-wizard",
   "dependencies": {
     "csrf": "^3.0.2",
-    "debug": "^2.1.2",
+    "debug": "^2.6.0",
     "express": "^4.12.2",
     "hmpo-form-controller": "^0.12.0",
     "hmpo-model": "^0.7.0",
     "hogan.js": "^3.0.2",
     "i18n-lookup": "^0.1.0",
+    "moment": "^2.17.1",
     "underscore": "^1.8.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^2.10.2",
+    "eslint": "^2.13.1",
     "istanbul": "^0.4.3",
     "mocha": "^3.1.2",
     "reqres": "^1.2.0",
-    "sinon": "^1.14.1",
+    "sinon": "^1.17.7",
     "sinon-chai": "^2.7.0",
-    "snyk": "^1.14.3"
+    "snyk": "^1.23.2"
   }
 }
