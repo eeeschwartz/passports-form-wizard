@@ -5,11 +5,13 @@
   "main": "app.js",
   "scripts": {
     "postinstall": "node-sass ./assets/app.scss ./assets/stylesheets/app.css --include-path ./node_modules",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "wdio"
   },
   "author": "",
   "dependencies": {
     "body-parser": "^1.12.2",
+    "chai-webdriverio": "^0.3.0",
     "cookie-parser": "^1.4.1",
     "express": "^4.12.3",
     "express-partial-templates": "^0.2.0",
@@ -24,5 +26,27 @@
     "i18n-future": "^1.0.0",
     "node-sass": "^4.2.0",
     "underscore": "^1.8.3"
+  },
+  "nonDependencies": {
+    "chromedriver": "2.23.1"
+  },
+  "devDependencies": {
+    "chromedriver": "2.29.0",
+    "cucumber": "2.0.0-rc.3",
+    "geckodriver": "^1.4.0",
+    "gherkin": "4.0.0",
+    "gherkin-lint": "^2.1.0",
+    "lodash": "^4.17.4",
+    "nightwatch": "0.9.9",
+    "nightwatch-cucumber": "^6.1.1",
+    "phantomjs-prebuilt": "^2.1.13",
+    "selenium-server": "3.0.1",
+    "wdio-cucumber-framework": "^0.3.0",
+    "wdio-dot-reporter": "0.0.8",
+    "wdio-firefox-profile-service": "0.0.3",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.8.0"
   }
 }
